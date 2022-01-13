@@ -5,7 +5,8 @@ import Grid from './Grid';
 function App() {
   return (
     <main>
-      <Grid />    
+      <p class="heading"><strong><em>React</em></strong>ing Grid</p>
+      <Grid />
     </main>
   );
 }

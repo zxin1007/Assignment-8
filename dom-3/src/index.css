@@ -1,9 +1,19 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading {
+  text-align: center;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 25px);
   grid-auto-rows: 25px;
   border: solid black 2px;
   padding: 5px;
+  width: fit-content;
 }
 
 .cell {
