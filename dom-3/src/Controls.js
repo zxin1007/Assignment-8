@@ -18,6 +18,7 @@ class Controls extends React.Component{
                 <button className="control" onClick={()=>this.props.onClick("column", -10)}>-10</button>
                 <div className="empty">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
                 <button className="control">Colors</button>
+                <button className="control">Eraser</button>
                 <button className="control">Fill Empties</button>
                 <button className="control">Fill All</button>
                 <button className="control">Clear All</button>
