@@ -20,7 +20,6 @@ main {
   padding: .3vw;
   margin-bottom: .3vw;
   background-color: blanchedalmond;
-  position: fixed;
 }
 
 .control {
@@ -47,4 +46,27 @@ main {
 
 .empty {
   display: inline-block;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.grids{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box{
+  height: 50px;
+  width: 50px;
+  border: 1px black solid;
+  margin: 1px 1px;
+}
+
+.row{
+  display: flex;
 }
