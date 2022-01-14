@@ -41,11 +41,11 @@ class App extends React.Component {
 
     return (
       <>
-        <main>
+        <header>
           <Controls
               onClick={this.handleClick}
           />
-        </main>
+        </header>
         <Table 
             column={this.state.column}
             row={this.state.row}
