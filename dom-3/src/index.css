@@ -6,6 +6,7 @@ body {
 
 header {
   padding-bottom: 2vw;
+  user-select: none;
 }
 
 .controls {
@@ -36,6 +37,7 @@ header {
 .main{
   display: flex;
   justify-content: center;
+  user-select: none;
 }
 
 .grids{
