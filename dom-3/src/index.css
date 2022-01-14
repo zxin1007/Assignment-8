@@ -52,6 +52,10 @@ header {
   margin: 1px 1px;
 }
 
+.box:hover {
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
 .row{
   display: flex;
 }
