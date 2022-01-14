@@ -9,8 +9,8 @@ class Table extends React.Component {
 
     render(){
 
-        console.log(this.props.column)
-        console.log(this.props.row)
+        // console.log(this.props.column)
+        // console.log(this.props.row)
 
         const row = []
         for (let i=0; i<this.props.row;i++){
