@@ -43,13 +43,13 @@ header {
   flex-direction: column;
   justify-content: center;
   margin-top: 50px;
+  border: 1px black solid;
+  border-radius: 25px;
 }
 
 .box{
   height: 50px;
   width: 50px;
-  border: 1px black solid;
-  margin: 1px 1px;
 }
 
 .box:hover {
