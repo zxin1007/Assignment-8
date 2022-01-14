@@ -6,7 +6,6 @@ import Controls from './Controls';
 function App() {
   return (
     <main>
-      <p className="heading"><strong><em>React</em></strong>ing Grid</p>
       <Controls/>
       <Grid/>
     </main>
