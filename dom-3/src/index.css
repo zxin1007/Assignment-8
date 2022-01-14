@@ -4,8 +4,24 @@ body {
   background-color: rgb(198, 223, 215);
 }
 
+.controls{
+  background-color: blanchedalmond;
+  border-bottom: solid .2vw black;
+  padding: .3vw;
+  margin-bottom: .3vw;
+  display: flex;
+  gap:20px
+}
+
+.control {
+  font-size: 15px;
+  padding: 10px 15px;
+  border: .1vw solid black;
+} 
+/* 
 main {
   padding: 0px;
+  margin: 0;
 }
 
 .heading {
@@ -27,10 +43,10 @@ main {
   font-size: 1vw;
   padding: .3vw;
   border: .1vw solid black;
-}
+} */
 
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 25px);
   grid-auto-rows: 25px;
@@ -43,8 +59,31 @@ main {
 
 .cell {
   border-style: none;
-}
+} */
 
 .empty {
   display: inline-block;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.grids{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box{
+  height: 50px;
+  width: 50px;
+  border: 1px black solid;
+  margin: 1px 1px;
+}
+
+.row{
+  display: flex;
 }
