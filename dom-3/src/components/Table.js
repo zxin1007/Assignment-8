@@ -16,11 +16,6 @@ class Table extends React.Component {
         this.clearAll = this.clearAll.bind(this)
         this.FillAll = this.FillAll.bind(this)
         this.FillEmpty = this.FillEmpty.bind(this)
-        this.mousehover = this.mousehover.bind(this)
-      }
-
-      mousehover(){
-          
       }
     
       changeColor(color){
